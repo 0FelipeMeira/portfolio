@@ -1,15 +1,15 @@
 const About = () => {
   return (
-    <div className="grid h-[80vh] w-full place-items-center bg-neutral-100">
+    <div className="grid h-[80svh] w-full place-items-center bg-neutral-100">
       <div
         id="about"
         className="grid size-full max-w-7xl grid-cols-1 place-items-center px-8 py-12 md:grid-cols-3 md:gap-16"
       >
-        <div className="h-4/5">
+        <div className="md:h-4/5">
           <h1 className="font-mono text-5xl md:text-7xl">Sobre mim</h1>
         </div>
         <div className="col-span-2 flex h-4/5 flex-col gap-8">
-          <h1 className="text-3xl font-semibold">
+          <h1 className="text-xl font-semibold">
             Sou desenvolvedor fullstack com 2 anos de experiência. Gosto de
             desenvolver aplicações com foco no usuário, acessibilidade e boa
             performance.

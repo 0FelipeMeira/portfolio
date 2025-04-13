@@ -5,7 +5,7 @@ const Connect = () => {
   const [isCopied, setIsCopied] = useState(false);
 
   return (
-    <div className="grid h-[80vh] w-full place-items-center bg-neutral-100">
+    <div className="grid h-[80svh] w-full place-items-center bg-neutral-100">
       <div
         id="contact"
         className="grid size-full max-w-7xl grid-cols-1 place-items-center px-8 py-12 md:grid-cols-2"

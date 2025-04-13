@@ -37,7 +37,7 @@ const Project = ({
               href={demoLink}
               className="text-primary-500 group transition-transform duration-200"
             >
-              <h1 className="px-1 text-lg font-semibold transition-transform duration-200 group-hover:-translate-y-0.5">
+              <h1 className="px-1 text-lg font-semibold text-nowrap transition-transform duration-200 group-hover:-translate-y-0.5">
                 LIVE DEMO
               </h1>
               <hr className="w-full transition-transform duration-200 group-hover:translate-y-0.5" />
@@ -49,7 +49,7 @@ const Project = ({
               className="text-primary-500 group transition-transform duration-200"
             >
               <div className="flex">
-                <h1 className="px-1 text-lg font-semibold transition-transform duration-200 group-hover:-translate-y-0.5">
+                <h1 className="px-1 text-lg font-semibold text-nowrap transition-transform duration-200 group-hover:-translate-y-0.5">
                   Github Repo
                 </h1>
                 <img
