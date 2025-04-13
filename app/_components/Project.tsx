@@ -16,28 +16,28 @@ const Project = ({
   githubLink,
 }: ProjectProps) => {
   return (
-    <div className="w-full grid md:grid-cols-2 my-10">
-      <div className="bg-neutral-200 px-4 py-6 md:py-26 rounded-3xl">
+    <div className="my-10 grid w-full md:grid-cols-2">
+      <div className="rounded-3xl bg-neutral-200 px-4 py-6 md:py-26">
         <img
           src={imageUrl}
-          className="bg-primary-500 aspect-video md:aspect-video object-cover h-80 m-auto rounded-2xl"
+          className="bg-primary-500 m-auto aspect-video h-80 rounded-2xl object-cover md:aspect-video"
         />
       </div>
-      <div className="flex flex-col justify-center px-12 mt-6 md:mt-0">
-        <h2 className="font-mono tracking-wide text-3xl">{title}</h2>
+      <div className="mt-6 flex flex-col justify-center px-12 md:mt-0">
+        <h2 className="font-mono text-3xl tracking-wide">{title}</h2>
         {year && (
-          <h3 className="text-xl mt-4">
+          <h3 className="mt-4 text-xl">
             Year: <b>{year}</b>
           </h3>
         )}
-        <p className="text-xl mt-8">{description}</p>
-        <div className="flex mt-12 gap-4">
+        <p className="mt-8 text-xl">{description}</p>
+        <div className="mt-12 flex gap-4">
           {demoLink && (
             <a
               href={demoLink}
               className="text-primary-500 group transition-transform duration-200"
             >
-              <h1 className="text-lg px-1 font-semibold transition-transform duration-200 group-hover:-translate-y-0.5">
+              <h1 className="px-1 text-lg font-semibold transition-transform duration-200 group-hover:-translate-y-0.5">
                 LIVE DEMO
               </h1>
               <hr className="w-full transition-transform duration-200 group-hover:translate-y-0.5" />
@@ -49,13 +49,13 @@ const Project = ({
               className="text-primary-500 group transition-transform duration-200"
             >
               <div className="flex">
-                <h1 className="text-lg px-1 font-semibold transition-transform duration-200 group-hover:-translate-y-0.5">
+                <h1 className="px-1 text-lg font-semibold transition-transform duration-200 group-hover:-translate-y-0.5">
                   Github Repo
                 </h1>
                 <img
                   src="./icons/github.svg"
                   alt=""
-                  className="transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                  className="transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                 />
               </div>
               <hr className="w-full transition-transform duration-200 group-hover:translate-y-0.5" />

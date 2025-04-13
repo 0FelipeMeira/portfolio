@@ -1,11 +1,11 @@
 const Header = () => {
   return (
-    <div className="bg-neutral-100 w-full h-16 flex items-center justify-center px-8">
-      <div className="max-w-7xl w-full flex items-center justify-between whitespace-nowrap">
+    <div className="flex h-16 w-full items-center justify-center bg-neutral-100 px-8">
+      <div className="flex w-full max-w-7xl items-center justify-between whitespace-nowrap">
         <h1 className="font-mono text-2xl sm:text-3xl">Felipe Meira</h1>
-        <ul className="flex gap-2 sm:gap-4 items-center">
+        <ul className="flex items-center gap-2 sm:gap-4">
           <li
-            className="text-sm sm:text-base cursor-pointer border-b-2 border-transparent hover:border-primary-500 transition-colors duration-200"
+            className="hover:border-primary-500 cursor-pointer border-b-2 border-transparent text-sm transition-colors duration-200 sm:text-base"
             onClick={(e) => {
               e.preventDefault();
               document
@@ -16,7 +16,7 @@ const Header = () => {
             Sobre Mim
           </li>
           <li
-            className="text-sm sm:text-base cursor-pointer border-b-2 border-transparent hover:border-primary-500 transition-colors duration-200"
+            className="hover:border-primary-500 cursor-pointer border-b-2 border-transparent text-sm transition-colors duration-200 sm:text-base"
             onClick={(e) => {
               e.preventDefault();
               document
@@ -27,7 +27,7 @@ const Header = () => {
             Contato
           </li>
           <li
-            className="text-sm sm:text-base cursor-pointer border-b-2 border-transparent hover:border-primary-500 transition-colors duration-200"
+            className="hover:border-primary-500 cursor-pointer border-b-2 border-transparent text-sm transition-colors duration-200 sm:text-base"
             onClick={(e) => {
               e.preventDefault();
               document
