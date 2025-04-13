@@ -9,11 +9,7 @@ const Icon = ({ type }: { type: Type }) => {
   return (
     <a
       href="/home"
-      className="size-12 rounded-full grid place-items-center border-2 aspect-square
-            transition-colors duration-200 ease-in-out
-            bg-neutral-300  border-neutral-300
-            hover:border-primary-500
-            active:bg-neutral-400"
+      className="hover:border-primary-500 grid aspect-square size-12 place-items-center rounded-full border-2 border-neutral-300 bg-neutral-300 transition-colors duration-200 ease-in-out active:bg-neutral-400"
     >
       <img src={iconSrc[type]} alt="" className="size-6 object-contain" />
     </a>

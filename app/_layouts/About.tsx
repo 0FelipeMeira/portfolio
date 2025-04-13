@@ -1,35 +1,35 @@
 const About = () => {
   return (
-    <div className="bg-neutral-100 w-full h-[80vh] grid place-items-center">
+    <div className="grid h-[80vh] w-full place-items-center bg-neutral-100">
       <div
         id="about"
-        className="size-full max-w-7xl grid grid-cols-1 md:grid-cols-3 place-items-center md:gap-16 py-12 px-8"
+        className="grid size-full max-w-7xl grid-cols-1 place-items-center px-8 py-12 md:grid-cols-3 md:gap-16"
       >
         <div className="h-4/5">
-          <h1 className="font-mono text-8xl">Sobre mim</h1>
+          <h1 className="font-mono text-5xl md:text-7xl">Sobre mim</h1>
         </div>
-        <div className="h-4/5 flex flex-col gap-8 col-span-2">
-          <h1 className="text-4xl font-semibold">
+        <div className="col-span-2 flex h-4/5 flex-col gap-8">
+          <h1 className="text-3xl font-semibold">
             Sou desenvolvedor fullstack com 2 anos de experiência. Gosto de
             desenvolver aplicações com foco no usuário, acessibilidade e boa
             performance.
           </h1>
-          <h2>
+          <h2 className="text-base">
             Atualmente estou explorando React.js, Node.js e um pouco de design
             de interfaces. Fora do código, curto tocar guitarra, jogar RPGs e
             sempre estou aprendendo algo novo.
           </h2>
-          <a
+          {/* <a
             href=""
-            className="text-primary-500 group transition-transform duration-200 w-fit"
+            className="text-primary-500 group w-fit transition-transform duration-200"
           >
-            {/* <div className="w-fit">
-            <h1 className="text-lg px-1 font-semibold transition-transform duration-200 group-hover:-translate-y-0.5">
-              More About Me
-            </h1>
-            <hr className="w-full transition-transform duration-200 group-hover:translate-y-0.5" />
-          </div> */}
-          </a>
+            <div className="w-fit">
+              <h1 className="px-1 text-lg font-semibold transition-transform duration-200 group-hover:-translate-y-0.5">
+                More About Me
+              </h1>
+              <hr className="w-full transition-transform duration-200 group-hover:translate-y-0.5" />
+            </div>
+          </a> */}
         </div>
       </div>
     </div>

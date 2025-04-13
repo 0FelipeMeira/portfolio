@@ -2,24 +2,20 @@ import Icon from "../_components/Icon";
 
 const Hero = () => {
   return (
-    <div className="bg-neutral-100 w-full min-h-[95vh] grid place-items-center">
-      <div className="size-full max-w-7xl grid grid-cols-1 md:grid-cols-2 place-items-center gap-16 md:py-12">
-        <div className="flex flex-col gap-4 w-full p-8">
-          <h1 className="font-mono text-6xl md:text-8xl">Olá, sou</h1>
-          <h1 className="font-mono text-6xl md:text-8xl">Felipe Meira.</h1>
+    <div className="grid min-h-[95vh] w-full place-items-center bg-neutral-100">
+      <div className="grid size-full max-w-7xl grid-cols-1 place-items-center gap-16 md:grid-cols-2 md:py-12">
+        <div className="flex w-full flex-col gap-4 p-8">
+          <h1 className="font-mono text-6xl md:text-8xl">
+            Olá, sou <br /> Felipe Meira.
+          </h1>
           <p className="text-neutral-600">
             Desenvolvedor fullstack com 2 anos de experiência criando aplicações
             acessíveis, escaláveis e centradas no usuário
           </p>
-          <div className="flex gap-4 mt-4">
+          <div className="mt-4 flex gap-4">
             <a
               href="#contact"
-              className="flex items-center justify-center gap-3 rounded-full h-12 w-full
-            font-bold py-2 border-2 
-            transition-colors duration-200 ease-in-out
-            bg-primary-500 text-neutral-100 border-primary-500
-            hover:bg-neutral-100 hover:text-primary-500 hover:border-primary-500
-            active:bg-neutral-300"
+              className="bg-primary-500 border-primary-500 hover:text-primary-500 hover:border-primary-500 flex h-12 w-full items-center justify-center gap-3 rounded-full border-2 py-2 font-bold text-neutral-100 transition-colors duration-200 ease-in-out hover:bg-neutral-100 active:bg-neutral-300"
               onClick={(e) => {
                 e.preventDefault();
                 document
@@ -34,11 +30,11 @@ const Hero = () => {
             <Icon type="github" />
           </div>
         </div>
-        <div className="mx-6 md:mx-0 bg-neutral-600 h-full rounded-2xl overflow-hidden">
+        <div className="order-first md:order-last mx-6 h-full overflow-hidden rounded-2xl bg-neutral-600 md:mx-0">
           <img
             src="./hero/profile2.png"
             alt=""
-            className="w-full h-full object-cover aspect-[6/7]"
+            className="aspect-square md:aspect-[6/7] h-full w-full object-cover"
           />
         </div>
       </div>
