@@ -8,7 +8,7 @@ const Projects = () => {
         className="grid size-full max-w-7xl grid-cols-1 place-items-center gap-16 px-8 py-12"
       >
         <div className="w-full">
-          <h1 className="font-mono text-5xl">Projetos em Destaque</h1>
+          <h1 className="font-mono text-5xl md:text-7xl">Projetos em Destaque</h1>
           <p>
             Aqui estão alguns projetos selecionados que mostram minha trajetória
             como desenvolvedor fullstack e minha paixão por criar experiências
