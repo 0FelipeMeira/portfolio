@@ -5,11 +5,13 @@ const Projects = () => {
     <div className="grid w-full place-items-center bg-neutral-100">
       <div
         id="projects"
-        className="grid size-full max-w-7xl grid-cols-1 place-items-center gap-16 px-8 py-12"
+        className="grid size-full max-w-7xl grid-cols-1 place-items-center gap-4 px-8 py-12"
       >
-        <div className="w-full">
-          <h1 className="font-mono text-5xl md:text-7xl">Projetos em Destaque</h1>
-          <p>
+        <div className="flex w-full flex-col gap-4">
+          <h1 className="font-mono text-5xl md:text-7xl">
+            Projetos em Destaque
+          </h1>
+          <p className="text-base">
             Aqui estão alguns projetos selecionados que mostram minha trajetória
             como desenvolvedor fullstack e minha paixão por criar experiências
             digitais acessíveis e bem construídas.
