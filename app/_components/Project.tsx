@@ -16,14 +16,14 @@ const Project = ({
   githubLink,
 }: ProjectProps) => {
   return (
-    <div className="w-full grid grid-cols-2 my-10">
-      <div className="bg-neutral-200 px-4 py-26">
+    <div className="w-full grid md:grid-cols-2 my-10">
+      <div className="bg-neutral-200 px-4 py-6 md:py-26 rounded-3xl">
         <img
           src={imageUrl}
-          className="bg-primary-500 aspect-video h-80 m-auto rounded-2xl"
+          className="bg-primary-500 aspect-video md:aspect-video object-cover h-80 m-auto rounded-2xl"
         />
       </div>
-      <div className="flex flex-col justify-center px-12">
+      <div className="flex flex-col justify-center px-12 mt-6 md:mt-0">
         <h2 className="font-mono tracking-wide text-3xl">{title}</h2>
         {year && (
           <h3 className="text-xl mt-4">
