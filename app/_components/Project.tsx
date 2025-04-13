@@ -17,13 +17,13 @@ const Project = ({
 }: ProjectProps) => {
   return (
     <div className="my-10 grid w-full md:grid-cols-2">
-      <div className="rounded-3xl bg-neutral-200 px-4 py-6 md:py-26">
+      <div className="bg-neutral-200 px-4 py-6 md:rounded-3xl md:py-26">
         <img
           src={imageUrl}
           className="bg-primary-500 m-auto aspect-video h-80 rounded-2xl object-cover md:aspect-video"
         />
       </div>
-      <div className="mt-6 flex flex-col justify-center px-12 md:mt-0">
+      <div className="flex flex-col justify-center bg-neutral-200 px-12 pt-6 md:mt-0 md:bg-neutral-100">
         <h2 className="font-mono text-3xl tracking-wide">{title}</h2>
         {year && (
           <h3 className="mt-4 text-xl">
@@ -31,7 +31,7 @@ const Project = ({
           </h3>
         )}
         <p className="mt-8 text-xl">{description}</p>
-        <div className="mt-12 flex gap-4">
+        <div className="mt-12 mb-4 flex gap-4">
           {demoLink && (
             <a
               href={demoLink}
