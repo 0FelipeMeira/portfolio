@@ -2,8 +2,8 @@ import Icon from "../_components/Icon";
 
 const Hero = () => {
   return (
-    <div className="grid min-h-[95vh] w-full place-items-center bg-neutral-100">
-      <div className="grid size-full max-w-7xl grid-cols-1 place-items-center gap-16 md:grid-cols-2 md:py-12">
+    <div className="grid min-h-[95svh] w-full place-items-center bg-neutral-100">
+      <div className="grid size-full max-w-7xl grid-cols-1 place-items-center md:gap-16 md:grid-cols-2 md:py-12">
         <div className="flex w-full flex-col gap-4 p-8">
           <h1 className="font-mono text-6xl md:text-8xl">
             Olá, sou <br /> Felipe Meira.
@@ -30,11 +30,11 @@ const Hero = () => {
             <Icon type="github" />
           </div>
         </div>
-        <div className="order-first md:order-last mx-6 h-full overflow-hidden rounded-2xl bg-neutral-600 md:mx-0">
+        <div className="order-first mx-6 h-full overflow-hidden rounded-2xl bg-neutral-600 md:order-last md:mx-0">
           <img
             src="./hero/profile2.png"
             alt=""
-            className="aspect-square md:aspect-[6/7] h-full w-full object-cover"
+            className="aspect-square h-full w-full object-contain md:aspect-[6/7]"
           />
         </div>
       </div>
