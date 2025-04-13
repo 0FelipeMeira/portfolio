@@ -12,7 +12,7 @@ export const Header = () => {
               ?.scrollIntoView({ behavior: "smooth" });
           }}
         >
-          About
+          Sobre Mim
         </li>
         <li
           className="text-base cursor-pointer border-b-2 border-transparent hover:border-primary-500 transition-colors duration-200"
@@ -23,7 +23,7 @@ export const Header = () => {
               ?.scrollIntoView({ behavior: "smooth" });
           }}
         >
-          Contact
+          Contato
         </li>
         <li
           className="text-base cursor-pointer border-b-2 border-transparent hover:border-primary-500 transition-colors duration-200"
@@ -34,7 +34,7 @@ export const Header = () => {
               ?.scrollIntoView({ behavior: "smooth" });
           }}
         >
-          Projects
+          Projetos
         </li>
       </ul>
     </div>

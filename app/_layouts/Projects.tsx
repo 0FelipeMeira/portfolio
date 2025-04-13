@@ -7,10 +7,11 @@ const Projects = () => {
       className="bg-neutral-100 w-full grid grid-cols-1 place-items-center gap-16 py-12 px-52"
     >
       <div className="w-full">
-        <h1 className="font-mono text-5xl">Featured Projects</h1>
+        <h1 className="font-mono text-5xl">Projetos em Destaque</h1>
         <p>
-          Here are some of the selected projects that showcase my passion for
-          front-end development
+          Aqui estão alguns projetos selecionados que mostram minha trajetória
+          como desenvolvedor fullstack e minha paixão por criar experiências
+          digitais acessíveis e bem construídas.
         </p>
       </div>
 

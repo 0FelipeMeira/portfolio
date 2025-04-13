@@ -26,7 +26,7 @@ export const Hero = () => {
                 ?.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            Contact Me
+            Fale Comigo
           </a>
 
           <Icon type="linkedin" />

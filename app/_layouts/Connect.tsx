@@ -6,9 +6,9 @@ const Connect = () => {
 
   return (
     <div id="contact" className="bg-neutral-100 w-full h-[80vh] grid grid-cols-2 place-items-center py-12 px-52">
-      <h1 className="text-7xl font-mono">Let's Connect</h1>
+      <h1 className="text-7xl font-mono">Vamos Conversar</h1>
       <div className="bg-neutral-200 rounded-md p-8 flex flex-col items-center gap-8 w-fit">
-        <h2 className="text-5xl font-mono mt-12">Contact me at:</h2>
+        <h2 className="text-5xl font-mono mt-12">Entre em contato comigo!</h2>
         <div className="bg-neutral-300 rounded-md flex items-center gap-2 shadow-2xl">
           <h1 className="text-xl text-neutral-900 my-2 mx-4 font-mono tracking-wider">
             felipcmeira2004@gmail.com
